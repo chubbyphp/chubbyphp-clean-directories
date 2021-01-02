@@ -25,7 +25,7 @@ A command to clean directories based on directoryName => directoryPath mapping.
 
 ## Requirements
 
- * php: ^7.2|^8.0
+ * php: ^7.4|^8.0
  * [symfony/console][2]: ^3.4|^4.4|^5.1
 
 ## Installation
@@ -33,7 +33,7 @@ A command to clean directories based on directoryName => directoryPath mapping.
 Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-clean-directories][1].
 
 ```sh
-composer require chubbyphp/chubbyphp-clean-directories "^1.0"
+composer require chubbyphp/chubbyphp-clean-directories "^1.1"
 ```
 
 ## Usage

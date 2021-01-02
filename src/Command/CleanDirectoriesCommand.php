@@ -14,7 +14,7 @@ final class CleanDirectoriesCommand extends Command
     /**
      * @var array<string, string>
      */
-    private $directories;
+    private array $directories;
 
     /**
      * @param array<string, string> $directories
