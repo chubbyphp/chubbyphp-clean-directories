@@ -1,8 +1,8 @@
 # chubbyphp-clean-directories
 
-[![Build Status](https://api.travis-ci.org/chubbyphp/chubbyphp-clean-directories.png?branch=master)](https://travis-ci.org/chubbyphp/chubbyphp-clean-directories)
+[![CI](https://github.com/chubbyphp/chubbyphp-clean-directories/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyphp/chubbyphp-clean-directories/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/chubbyphp/chubbyphp-clean-directories/badge.svg?branch=master)](https://coveralls.io/github/chubbyphp/chubbyphp-clean-directories?branch=master)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyphp/chubbyphp-clean-directories/master)](https://travis-ci.org/chubbyphp/chubbyphp-clean-directories)
+[![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyphp/chubbyphp-clean-directories/master)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyphp/chubbyphp-clean-directories/master)
 [![Latest Stable Version](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/v/stable.png)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
 [![Total Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/downloads.png)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
 [![Monthly Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/d/monthly)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
