@@ -40,9 +40,9 @@ final class CleanDirectoriesCommandTest extends TestCase
         self::assertSame(1, $command->run($input, $output));
 
         $outputMessage = <<<'EOT'
-Unsupported directory names: "log"
+            Unsupported directory names: "log"
 
-EOT;
+            EOT;
 
         self::assertSame($outputMessage, $output->fetch());
     }
@@ -77,10 +77,10 @@ EOT;
         self::assertSame(0, $code);
 
         $outputMessage = <<<'EOT'
-Start clean directory with name "cache" at path "%s"
-Start clean directory with name "log" at path "%s"
+            Start clean directory with name "cache" at path "%s"
+            Start clean directory with name "log" at path "%s"
 
-EOT;
+            EOT;
 
         self::assertSame(sprintf($outputMessage, $cacheDir, $logDir), $output->fetch());
     }
@@ -88,7 +88,7 @@ EOT;
     // @todo: remove when phpunit min version >= 9
     public static function assertDirectoryDoesNotExist(string $directory, string $message = ''): void
     {
-        if (!is_callable([Assert::class, 'assertDirectoryDoesNotExist'])) {
+        if (!\is_callable([Assert::class, 'assertDirectoryDoesNotExist'])) {
             Assert::assertDirectoryNotExists($directory, $message);
 
             return;
