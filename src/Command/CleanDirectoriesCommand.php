@@ -12,18 +12,11 @@ use Symfony\Component\Console\Output\OutputInterface;
 final class CleanDirectoriesCommand extends Command
 {
     /**
-     * @var array<string, string>
-     */
-    private array $directories;
-
-    /**
      * @param array<string, string> $directories
      */
-    public function __construct(array $directories)
+    public function __construct(private array $directories)
     {
         parent::__construct();
-
-        $this->directories = $directories;
     }
 
     protected function configure(): void

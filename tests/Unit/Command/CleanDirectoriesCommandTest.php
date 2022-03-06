@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Chubbyphp\Tests\CleanDirectories\Unit\Command;
 
 use Chubbyphp\CleanDirectories\Command\CleanDirectoriesCommand;
-use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;
@@ -83,17 +82,5 @@ final class CleanDirectoriesCommandTest extends TestCase
             EOT;
 
         self::assertSame(sprintf($outputMessage, $cacheDir, $logDir), $output->fetch());
-    }
-
-    // @todo: remove when phpunit min version >= 9
-    public static function assertDirectoryDoesNotExist(string $directory, string $message = ''): void
-    {
-        if (!\is_callable([Assert::class, 'assertDirectoryDoesNotExist'])) {
-            Assert::assertDirectoryNotExists($directory, $message);
-
-            return;
-        }
-
-        Assert::assertDirectoryDoesNotExist($directory, $message);
     }
 }
