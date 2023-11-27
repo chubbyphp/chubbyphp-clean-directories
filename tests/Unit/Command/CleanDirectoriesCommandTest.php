@@ -58,9 +58,9 @@ final class CleanDirectoriesCommandTest extends TestCase
 
         $output = new BufferedOutput();
 
-        mkdir($cacheDir.'/some/value/to/clean', 0777, true);
+        mkdir($cacheDir.'/some/value/to/clean', 0o777, true);
         touch($cacheDir.'/some/value/to/clean/file');
-        mkdir($logDir.'/another/value/to/clean', 0777, true);
+        mkdir($logDir.'/another/value/to/clean', 0o777, true);
         touch($logDir.'/another/value/to/clean/file');
 
         $command = new CleanDirectoriesCommand(['cache' => $cacheDir, 'log' => $logDir]);

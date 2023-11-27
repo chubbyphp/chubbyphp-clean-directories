@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/chubbyphp/chubbyphp-clean-directories/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyphp/chubbyphp-clean-directories/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/chubbyphp/chubbyphp-clean-directories/badge.svg?branch=master)](https://coveralls.io/github/chubbyphp/chubbyphp-clean-directories?branch=master)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyphp/chubbyphp-clean-directories/master)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyphp/chubbyphp-clean-directories/master)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fchubbyphp%2Fchubbyphp-clean-directories%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyphp/chubbyphp-clean-directories/master)[![Latest Stable Version](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/v/stable.png)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
 [![Latest Stable Version](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/v/stable.png)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
 [![Total Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/downloads.png)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
 [![Monthly Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-clean-directories/d/monthly)](https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories)
@@ -25,15 +25,15 @@ A command to clean directories based on directoryName => directoryPath mapping.
 
 ## Requirements
 
- * php: ^8.0
- * [symfony/console][2]: ^4.4.38|^5.4.5|^6.0
+ * php: ^8.1
+ * [symfony/console][2]: ^5.4.31|^6.3|^7.0
 
 ## Installation
 
 Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-clean-directories][1].
 
 ```sh
-composer require chubbyphp/chubbyphp-clean-directories "^1.2"
+composer require chubbyphp/chubbyphp-clean-directories "^1.3"
 ```
 
 ## Usage
