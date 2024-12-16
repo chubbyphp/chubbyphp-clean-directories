@@ -81,6 +81,6 @@ final class CleanDirectoriesCommandTest extends TestCase
 
             EOT;
 
-        self::assertSame(sprintf($outputMessage, $cacheDir, $logDir), $output->fetch());
+        self::assertSame(\sprintf($outputMessage, $cacheDir, $logDir), $output->fetch());
     }
 }

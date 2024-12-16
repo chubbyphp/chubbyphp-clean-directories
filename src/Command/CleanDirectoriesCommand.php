@@ -41,7 +41,7 @@ final class CleanDirectoriesCommand extends Command
 
         if ([] !== $unsupportedDirectoryNames) {
             $output->writeln(
-                sprintf('<error>Unsupported directory names: "%s"</error>', implode('", "', $unsupportedDirectoryNames))
+                \sprintf('<error>Unsupported directory names: "%s"</error>', implode('", "', $unsupportedDirectoryNames))
             );
 
             return 1;
@@ -51,7 +51,7 @@ final class CleanDirectoriesCommand extends Command
             $directory = $this->directories[$directoryName];
 
             $output->writeln(
-                sprintf('<info>Start clean directory with name "%s" at path "%s"</info>', $directoryName, $directory)
+                \sprintf('<info>Start clean directory with name "%s" at path "%s"</info>', $directoryName, $directory)
             );
 
             $this->cleanDirectory($directory);
