@@ -22,7 +22,7 @@ final class CleanDirectoriesCommandFactoryTest extends TestCase
 
     public function testInvoke(): void
     {
-        /** @var ContainerInterface $containe */
+        /** @var ContainerInterface $container */
         $container = $this->getMockByCalls(ContainerInterface::class, [
             Call::create('get')->with('config')->willReturn(['directories' => ['name' => 'path']]),
         ]);
