@@ -35,7 +35,6 @@ final class CleanDirectoriesCommandFactoryTest extends TestCase
         self::assertInstanceOf(CleanDirectoriesCommand::class, $service);
 
         $directoriesReflectionProperty = new \ReflectionProperty($service, 'directories');
-        $directoriesReflectionProperty->setAccessible(true);
 
         self::assertSame(['name' => 'path'], $directoriesReflectionProperty->getValue($service));
     }
