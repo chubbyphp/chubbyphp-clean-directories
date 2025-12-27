@@ -14,7 +14,7 @@ final class CleanDirectoriesCommand extends Command
     /**
      * @param array<string, string> $directories
      */
-    public function __construct(private array $directories)
+    public function __construct(private readonly array $directories)
     {
         parent::__construct();
     }
