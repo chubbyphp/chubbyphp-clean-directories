@@ -67,7 +67,7 @@ console clean-directories directoryName
 
 ## Copyright
 
-2025 Dominik Zogg
+2026 Dominik Zogg
 
 [1]: https://packagist.org/packages/chubbyphp/chubbyphp-clean-directories
 [2]: https://packagist.org/packages/symfony/console
