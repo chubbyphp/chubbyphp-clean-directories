@@ -26,14 +26,14 @@ A command to clean directories based on directoryName => directoryPath mapping.
 ## Requirements
 
  * php: ^8.3
- * [symfony/console][2]: ^6.4.30|^7.4.1|^8.0.1
+ * [symfony/console][2]: ^6.4.31|^7.4.3|^8.0.3
 
 ## Installation
 
 Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-clean-directories][1].
 
 ```sh
-composer require chubbyphp/chubbyphp-clean-directories "^1.5"
+composer require chubbyphp/chubbyphp-clean-directories "^1.5.1"
 ```
 
 ## Usage
