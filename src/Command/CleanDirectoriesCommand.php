@@ -34,7 +34,7 @@ final class CleanDirectoriesCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        /** @var array<int, string> $directoryNames */
+        /** @var list<string> $directoryNames */
         $directoryNames = $input->getArgument('directoryNames');
 
         $unsupportedDirectoryNames = array_diff($directoryNames, array_keys($this->directories));
