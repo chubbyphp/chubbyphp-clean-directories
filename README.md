@@ -26,7 +26,7 @@ A command to clean directories based on directoryName => directoryPath mapping.
 ## Requirements
 
  * php: ^8.3
- * [symfony/console][2]: ^6.4.31|^7.4.3|^8.0.3
+ * [symfony/console][2]: ^6.4.45|^7.4.18|^8.1.6
 
 ## Installation
 

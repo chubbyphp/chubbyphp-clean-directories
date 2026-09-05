@@ -16,16 +16,16 @@
     ],
     "require": {
         "php": "^8.3",
-        "symfony/console": "^6.4.31|^7.4.3|^8.0.3"
+        "symfony/console": "^6.4.45|^7.4.18|^8.1.6"
     },
     "require-dev": {
         "chubbyphp/chubbyphp-dev-helper": "dev-master",
-        "chubbyphp/chubbyphp-mock": "^2.2.1",
-        "infection/infection": "^0.34.0",
+        "chubbyphp/chubbyphp-mock": "^2.2.2",
+        "infection/infection": "^0.35.4",
         "php-coveralls/php-coveralls": "^2.9.1",
         "phpstan/extension-installer": "^1.4.3",
-        "phpstan/phpstan": "^2.2.5",
-        "phpunit/phpunit": "^12.5.30",
+        "phpstan/phpstan": "^2.2.13",
+        "phpunit/phpunit": "^12.5.34",
         "psr/container": "^2.0.2"
     },
     "autoload": {
